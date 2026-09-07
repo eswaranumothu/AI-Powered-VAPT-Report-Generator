@@ -1,0 +1,42 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Generated reports
+generated_reports/
+backend/generated_reports/
+
+# Uploaded files
+uploads/
+
+# Local scratch / experiments
+backend/test_gemini.py
+backend/test_local_ai.py
+backend/test_pdf.py
+
+# Tooling / assistant
+.claude/
+CLAUDE.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
