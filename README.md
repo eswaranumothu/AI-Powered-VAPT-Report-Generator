@@ -58,25 +58,28 @@ AI assistant that drafts vulnerability write-ups and evidence step descriptions.
 > Images live in [`docs/screenshots/`](docs/screenshots/).
 
 ### Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
+<img width="955" height="409" alt="Screenshot 2026-09-07 150419" src="https://github.com/user-attachments/assets/bc581b62-335a-4db3-adcf-599e9a0295c4" />
+
 
 ### AI vulnerability generation
 Enter a short title…
 
-![Add vulnerability](docs/screenshots/add-vulnerability.png)
+<img width="647" height="413" alt="Screenshot 2026-09-07 150435" src="https://github.com/user-attachments/assets/31a96a04-79b6-4f00-a702-77457c67b9de" />
+
 
 …and let the assistant draft the full write-up:
 
-![Add vulnerability – AI generated](docs/screenshots/add-vulnerability-generated.png)
+<img width="654" height="415" alt="Screenshot 2026-09-07 150444" src="https://github.com/user-attachments/assets/0be50ff1-b5d7-4896-9451-bfb6bf12622e" />
+
 
 ### Project details & findings
-![Project details](docs/screenshots/project-details.png)
+<img width="797" height="362" alt="Screenshot 2026-09-07 150503" src="https://github.com/user-attachments/assets/23b75264-5ee3-4305-a531-49b07997316c" />
+
 
 ### Evidence with AI step generation
-![Evidence](docs/screenshots/evidence.png)
+<img width="324" height="221" alt="Screenshot 2026-09-07 150518" src="https://github.com/user-attachments/assets/3831f31b-d53b-4558-a308-d5983ac9bd12" />
 
-### Login
-![Login](docs/screenshots/login.png)
+
 
 ---
 
@@ -248,9 +251,3 @@ Design documents are in [`docs/`](docs/):
 - [`AI_WORKFLOW.md`](docs/AI_WORKFLOW.md)
 
 ---
-
-## Security notes
-
-- `.env`, `uploads/` and `generated_reports/` are git-ignored — they contain
-  secrets and client-confidential assessment data and must never be committed.
-- Rotate `SECRET_KEY` and API keys before deploying.
